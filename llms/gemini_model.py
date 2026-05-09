@@ -36,4 +36,3 @@ if __name__ == "__main__":
     model = GeminiModel("gemini-1.5-pro-latest")
     response = model.make_request(["I think 4 is even.", "It is!", "Why?"])
     print(response)
-
