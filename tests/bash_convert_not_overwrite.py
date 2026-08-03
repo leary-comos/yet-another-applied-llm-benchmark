@@ -30,4 +30,3 @@ TestBashIncrementalUpdate = Setup(setup_fn) >> question >> LLMRun() >> ExtractCo
 if __name__ == "__main__":
     print(run_test(TestBashIncrementalUpdate))
 
-
