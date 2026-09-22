@@ -25,4 +25,3 @@ if __name__ == "__main__":
     import sys
     q = "What's your name?"
     print(q+":", GroqModel("deepseek-r1-distill-llama-70b").make_request([q]))
-
