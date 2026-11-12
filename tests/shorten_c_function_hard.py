@@ -68,4 +68,3 @@ if __name__ == "__main__":
     from llm import llm
     print(run_test(TestShortenC2Step))
 
-
